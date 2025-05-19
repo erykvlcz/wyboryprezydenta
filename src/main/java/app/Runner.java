@@ -1,7 +1,13 @@
 package app;
 
+import models.DrawMachine;
+
+import java.util.List;
+
 public class Runner {
     public static void main(String[] args) {
-        System.out.println("Szczęść Boże");
+        DrawMachine drawMachine = new DrawMachine();
+
+        drawMachine.addVotesToTxt();
     }
 }
